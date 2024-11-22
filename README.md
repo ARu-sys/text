@@ -22,11 +22,12 @@
       color: black;
       text-shadow: 2px 2px 3px pink;
       text-decoration: underline;
-      border: 2px solid black;
+      border: 2px solid black; /* Ensure full border visibility */
       padding: 10px;
       display: inline-block;
       font-weight: bold; /* Matches the boldness of the font */
-      margin-bottom: 20px; /* Add spacing between headings */
+      margin: 0; /* Remove default margin */
+      background-color: white; /* Add background to prevent shadow overlap */
     }
 
     h2 {
@@ -38,7 +39,7 @@
       background-color: white;
       border: 3px solid yellow;
       box-shadow: inset 0 0 0 3px black; /* Inner black border */
-      margin-bottom: 20px; /* Add spacing between headings */
+      margin: 20px 0; /* Add spacing between headings */
     }
 
     h3 {
